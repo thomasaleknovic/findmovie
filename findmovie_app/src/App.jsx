@@ -29,7 +29,7 @@ function App() {
 
     <div>
       <div className='header--question'>
-        <img src='./assets/shuffle.svg' alt='shuffle_logo' width={90}></img>
+        <img src='/assets/shuffle.svg' alt='shuffle_logo' width={90}></img>
         <p>Não sabe o que assistir?</p>
       </div>
 
@@ -43,7 +43,7 @@ function App() {
 
       <div className='button--find'>
         <button onClick={buttonClick}>
-          <img src='./assets/shuffle.svg' width={30}></img>
+          <img src='/assets/shuffle.svg' width={30}></img>
           <span>Encontrar filme</span>
         </button>
         <p>Clique em "Encontrar filme" que traremos informações de algum filme para você assistir hoje.</p>

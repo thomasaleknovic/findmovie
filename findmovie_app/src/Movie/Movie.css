@@ -1,0 +1,29 @@
+
+.movie--container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:flex-start
+    
+}
+
+.movie--info {
+    max-width: 30%;
+    margin-left: 40px;
+}
+
+.movie--title{
+    margin-top: 0;
+}
+
+
+@media (max-width: 600px) {
+
+    .movie--info {
+        max-width: 90%;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+}
